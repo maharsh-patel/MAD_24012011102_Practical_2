@@ -1,4 +1,4 @@
-package com.example.mad_practical2_22012011094
+package com.example.mad_practical2_24012011102
 
 import android.os.Bundle
 import android.util.Log
@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.snackbar.Snackbar
-import com.example.mad_practical2_24012011102.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-    var TAG = "MainActivity"
+    val TAG = "MainActivity"
     fun showMessage(msg:String){
         Log.i(TAG, msg)
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
