@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MAD_practical2_24012011102</string>
+    <string name="MADPractical2">MADPractical2</string>
+    <string name="hello_world">Hello world!</string>
 </resources>
