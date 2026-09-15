@@ -35,7 +35,9 @@ Each callback invokes a unified helper function `display(msg)` which logs the ev
 
 ## 📸 Screenshots & Output
 
-![App Output](practical2_output.png)
+| App UI Output | Logcat Execution Logs |
+| :---: | :---: |
+| ![App Output](practical2_output.png) | ![Logcat Output](practical2_logcat.png) |
 
 ---
 
